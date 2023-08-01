@@ -1,1 +1,58 @@
-<h1>hola</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del Alumno</title>
+    <link rel="stylesheet" type="text/CSS" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo1">Información del Alumno</h1>
+    </header>
+    <nav>
+        <ul class="titulo2">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Desarrollador</a></li>
+            <li><a href="parte3/index.html" target="_blank">Template</a></li>
+        </ul>
+    </nav>
+    <main class="izquierda">
+        <article>
+            <h2 class="titulo2">Datos Básicos</h2>
+            <ul>
+                <li>Apellido y Nombre: Agüero, Jorge Luis</li>
+                <li>Edad: 46 años</li>
+                <li>Domicilio: Barrio Ruta 20, Caucete, San Juan.</li>
+                <li>E-mail: flacobass@gmail.com</li>
+            </ul>
+        </article><hr>
+        <article>
+            <h2 class="titulo2">Intereses</h2>
+            <ol>
+                <li>Obtener un Título</li>
+                <li>Aprender más de programación</li>
+                <li>Escuchar música electrónica</li>
+                <li>Viajar</li>
+                <li>Adquirir tecnología</li>
+            </ol>
+        </article><hr>
+        <article>
+            <h2 class="titulo2">Experiencias</h2>
+            <p>* Actualmente estudio la carrera de: <i>Tecnicatura Superior en Desarrollo de Software</i>, en el <b>I.E.S.</b> (Instituto de Educación Superior), en la <u>Esc. Superior Normal Gral. Manuel Belgrano</u></p>
+            <p>* Cursando el segundo tramo en <i>Argentina Programa</i>.</p>
+        </article><hr>
+    </main>
+    <center>
+    <aside class="derecha">
+        <!--agrego imágen guardada en la carpeta imagenes-->
+        <img src="imagenes/fotoperfil.jpg" class="bordes" height="150" width="150" title="Foto perfil">
+        <!--agrego enlace a video en youtube, uso <iframe> para embeber el enlace, <video> se usaría si el video está alojado en mi pc local-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GyXGPXAlvvs?si=sLSl5KO7LzAgDoz6" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside></center>
+    <footer><!--doy una animación a la información con <marquee>-->
+        <marquee class="titulo1" scrolldelay="1" scrollamount="8" loop="infinite" direction="left"> Práctico N0: HTML/CSS  -  julio 2023</marquee>
+    </footer>
+</body>
+</html>

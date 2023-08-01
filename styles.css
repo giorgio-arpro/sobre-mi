@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+    padding: top;
+}
+.titulo1{
+    background-color: darkseagreen;
+    border-color: rgb(8, 10, 8);
+    line-height: 2cm;
+    text-align: center;
+}
+.titulo2{
+    text-align: center;
+}
+.bordes{
+    border-radius: 7px;
+}
+body nav ul{
+    list-style: none;
+    background-color:beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{
+    background-color: #d6ecec;
+}
+.derecha{
+    background-color: darkseagreen;
+    float:right;
+    height:auto;
+    padding:20px;
+    width:30%;
+}
+.izquierda{
+    float: left;
+    height:auto;
+    padding:10px;
+    width:60%;
+}
